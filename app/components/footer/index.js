@@ -1,7 +1,7 @@
 // src/app/components/Footer.js
 "use client";
 
-import LiveChatClient from "../LiveChatClient";
+
 
 export default function Footer() {
   return (
@@ -13,7 +13,7 @@ export default function Footer() {
         </p>
       </div>
     </footer>
-      <LiveChatClient />
+   
    </>
   );
 }
