@@ -1,9 +1,7 @@
-"use client";
+'use client';
 
-import { LiveChatWidget } from "@livechat/widget-react";
+import { LiveChatWidget } from '@livechat/widget-react';
 
 export default function LiveChatClient() {
-  return (
-    <LiveChatWidget license={19481653} />
-  );
+  return <LiveChatWidget license="19481653" />;
 }
